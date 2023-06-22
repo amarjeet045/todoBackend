@@ -37,7 +37,7 @@ app.use("/api", addTask);
 app.use("/api", tasks);
 app.use("/api", deleteTask);
 app.use("/api", updateTask);
-app.get("/api",async(req,res) =>{
+app.get("/api/test",async(req,res) =>{
   return res.status(200).send({
     success:true
   })
